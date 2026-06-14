@@ -1,0 +1,40 @@
+[global]
+    origin = top-right
+    offset = 0x50
+    width = 400
+    height = (10, 90)
+    padding = 12
+    horizontal_padding = 12
+    frame_width = 0                     
+
+    background = "#000000cc"
+    foreground = "#ffffff"
+    font = monospace 11
+    corner_radius = 8
+    timeout = 5
+    progress_bar = true
+    progress_bar_height = 6
+    progress_bar_color = "#3b82f6"
+    separator_height = 0
+    sort = yes
+    word_wrap = yes
+    markup = full
+    format = "<b>%s</b>\n%b"
+
+[urgency_low]
+    background = "#000000cc"
+    foreground = "#cccccc"
+    frame_width = 0
+    timeout = 3
+
+[urgency_normal]
+    background = "#000000cc"
+    foreground = "#ffffff"
+    frame_width = 0
+    timeout = 5
+
+[urgency_critical]
+    background = "#000000cc"
+    foreground = "#ff5555"
+    frame_width = 0
+    timeout = 0
